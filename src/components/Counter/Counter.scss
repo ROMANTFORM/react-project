@@ -1,0 +1,26 @@
+.Counter__container{
+    width: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: $grey;
+    margin: 0 auto;
+}
+.Counter__value{
+    font-size: 40px;
+    font-weight: bold;
+    color: $white;
+    text-align: center;
+}
+.Counter__controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Counter__btn{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: $orange;
+    color: $white;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+@import './_colors.scss';
+@import './_mixins.scss';
+@import './fonts.scss';
+
+@import '../views/AboutView/AboutView.scss';
+@import '../views/AboutCardView/AboutCardView.scss';
+@import '../components/SideBar/SideBar.scss';
+@import '../components/Counter/Counter.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $josefin;
+}
+
+.App{
+    position: relative;
+}
+
+.NavLink{
+    font-size: 20px;
+    color: $grey;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+.NavLink--active{
+    color: $black;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.About__list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 40px;
+    list-style: none;
+}
+.About__item{
+  
+}
+.About__item-container{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.About__img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0 0;
+}
+.About__name{
+    font-size: 25px;
+    font-weight: bold;
+    color: $black;
+    margin-top: 10px;
+}

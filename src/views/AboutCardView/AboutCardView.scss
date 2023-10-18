@@ -1,0 +1,23 @@
+.AboutCard{
+    width: 500px;
+    margin: 40px auto;
+}
+.AboutCard__title{
+    text-align: center;
+}
+.AboutCard-container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.AboutCard__img{
+    display: block;
+    width: 200px;
+
+}
+.AboutCard__description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
